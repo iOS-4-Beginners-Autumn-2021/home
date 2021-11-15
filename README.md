@@ -1,5 +1,19 @@
 # iOS 4 Beginners Autumn 2021
 
+---
+
+#### Assignments Results
+
+Assignment results are available [_here_](https://docs.google.com/spreadsheets/d/1xI5ByRpoH4Nt5FwSOMYzMXxO8Lf5NLSZGver6llZlfU/edit?usp=sharing).
+
+Find your data row by hashing your github username using **sha256**. Use an online [tool](http://www.sha1-online.com), or run this bash command:
+
+```sh
+printf "<github-username>" | openssl sha256
+```
+
+---
+
 ## Classes
 
 ### Class 1: Hello Swift
