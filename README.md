@@ -48,4 +48,4 @@ We were talking about the basics of SwiftUI:
 - GeometryReader it's one of the most powerful views in SwiftUI - use it wisely 🧙‍♂️
 - Views should be simple and readable
 
-To learn more, go through the [Swift](./Class2) playground.
+To learn more, go through the [example project](./Class2).
