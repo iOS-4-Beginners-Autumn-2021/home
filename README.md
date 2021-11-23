@@ -49,3 +49,18 @@ We were talking about the basics of SwiftUI:
 - Views should be simple and readable
 
 To learn more, go through the [example project](./Class2).
+
+### Class 3: SwiftUI 102
+
+We talked about data flow in SwiftUI:
+
+- Data access as a Dependency
+- Data should have one source of truth
+- `@State` is source of truth
+- Views are a function of state
+- `@Binding` to write and read without ownership
+- `@ObservedObject` or `@StateObject` for reference types
+- `@EnvironmentObject` to read model from view hierarchy 
+- `@Environment` to read values like disabled state or locale
+
+To learn more, go throught the [example project](./Class3).
