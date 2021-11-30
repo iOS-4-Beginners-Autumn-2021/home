@@ -63,4 +63,22 @@ We talked about data flow in SwiftUI:
 - `@EnvironmentObject` to read model from view hierarchy 
 - `@Environment` to read values like disabled state or locale
 
-To learn more, go throught the [example project](./Class3).
+To learn more, go through the [example project](./Class3).
+
+### Class 4: Intermediate Swift & MVVM
+
+We talked about advanced topics in Swift and MVVM architecture:
+
+- 2 types of memory management - *Stack* and *Heap*
+- ARC tells when memory can be free
+- *Stack* is for value types
+- *Heap* is for reference type
+- Reference types can cause memory leaks
+- Use `weak` or `unowned` reference to avoid the leak
+- It is good to use some architecture for example MVVM
+- Model - defines a business logic
+- View - renders UI
+- ViewModel - translates user actions to business actions and prepares data for the view
+- The dependency should look like this: `View` ⬅️ `ViewModel` ⬅️ `Model`
+
+To learn more, go through the [example MVVM project](./Class4).
