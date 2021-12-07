@@ -82,3 +82,24 @@ We talked about advanced topics in Swift and MVVM architecture:
 - The dependency should look like this: `View` ⬅️ `ViewModel` ⬅️ `Model`
 
 To learn more, go through the [example MVVM project](./Class4).
+
+### Class 5: Networking with async/await
+
+We talked about Networking with async/await:
+
+- To make a network call you will nee `URL`
+- The default iOS object responsible for networking is `URLSession`
+- To configure `URLSession` use `URLSessionConfiguration`
+- You can always use predefined `URLSession.shared`
+- `URLRequest` give possibility to set *HTTP* method or headers
+- Methods that can throw an error must be marked with `throws`
+- Such method must be called with `try`
+- There are many was of handling errors `do {...} catch {...}`, `try?`, `try!`
+- `Codable` protocol is great for parsing JSONs
+- Async/await is swift language tool for handling concurrency
+- The asynchronous work is called *Task*
+- Task must be called with `await` and it's a suspend point 
+- Methods that can be suspend must be marked with `async`
+
+To learn more, go through the [example project](./Class5).
+
