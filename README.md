@@ -103,3 +103,21 @@ We talked about Networking with async/await:
 
 To learn more, go through the [example project](./Class5).
 
+### Class 6: Lists and Navigation
+
+We talked about displaying large amount of data and navigation in SwiftUI:
+
+- SwiftUI manage to display large content by displaying only what is visible on the screen (+/- few)
+- LazyV(H)Grid can display items in multiple columns(rows)
+- GridItem defines how the column behaves (adaptive, flexible, fixed)
+- List displays items in rows 
+- List can be styled with ListStyle
+- LazyV(H)Stack displays lazily items verticaly
+- Both lazy stacks and grids can have pinnedView
+- On iOS we have 3 types of navigation: [Hierarchical, Flat, Content-Driven](https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/navigation/) 
+- In SwiftUI we can perform push with `NavigationView` and `NavigationLink`
+- To show modal use `.sheet()` modifier
+- NavigationTitle is visible only when there is NavigationView somewhere in hierarchy
+
+To learn more, go through the [example project](./Class6).
+
